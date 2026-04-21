@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="progres.css">
+</head>
+<body>
+  <div class="progress-bar">
+    <div class="progress-bar-fill" id="progress"></div>
+  </div>
+  <script>
+    function updateProgress(progressPercentage) {
+      const progressBarFill = document.getElementById('progress');
+      progressBarFill.style.width = `${progressPercentage}%`;
+    }
+    // Example usage: updating progress to 75%
+    updateProgress(75);
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="mouse.css">
+</head>
+<body>
+  <div id="myDiv" class="my-element"></div>
+
+<script>
+        function changeBackgroundColor(elementId, color) {
+      const element = document.getElementById(elementId);
+      if (element) {
+        element.addEventListener('mouseenter', () => {
+          element.style.backgroundColor = color;
+        });
+      }
+    }
+
+    // Call the function with element ID and desired color
+    changeBackgroundColor('myDiv', 'green');
+
+</script>
+</body>
+</html>
