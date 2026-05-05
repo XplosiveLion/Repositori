@@ -4,7 +4,7 @@ export default function DashboardPage() {
   return (
     <>
       <Typography variant="h4" gutterBottom>
-        Dashboard
+        Dashboard 2
       </Typography>
 
       <Grid container spacing={3}>
