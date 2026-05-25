@@ -41,6 +41,11 @@ export default function Login() {
         password,
       });
 
+      /*
+      console.log("LOGIN DATA:", data);
+      console.log("LOGIN USER:", data.user);
+      */
+     
       login(data.token, data.user);
 
       navigate("/");

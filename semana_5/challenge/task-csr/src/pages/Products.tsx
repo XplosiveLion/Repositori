@@ -22,6 +22,7 @@ import {
   useAuth,
 } from "../context/AuthContext";
 
+
 function normalizeProducts(
   response: any
 ) {
@@ -80,7 +81,7 @@ export default function Products() {
     const interval =
       setInterval(
         loadProducts,
-        30000
+        10000
       );
 
     return () =>
@@ -146,7 +147,7 @@ export default function Products() {
                 </p>
 
                 <p className="text-lg font-semibold">
-                  Cada 30 segundos
+                  Cada 10 segundos
                 </p>
               </div>
             </div>

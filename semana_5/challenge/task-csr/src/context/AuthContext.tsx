@@ -19,10 +19,14 @@ interface AuthContextType {
 const AuthContext =
   createContext<AuthContextType | null>(null);
 
-function getRole(user: any): Role {
+/*function getRole(user: any): Role {
   return user?.is_staff || user?.is_superuser
     ? "editor"
     : "viewer";
+}*/
+
+function getRole(user: any): Role {
+  return "editor";
 }
 
 export function AuthProvider({

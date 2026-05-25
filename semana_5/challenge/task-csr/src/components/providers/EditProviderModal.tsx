@@ -294,7 +294,7 @@ export default function EditProviderModal({
     "
           >
             <Trash2 size={20} />
-            Archivar proveedor
+            Eliminar proveedor
           </button>
         </div>
       </div>

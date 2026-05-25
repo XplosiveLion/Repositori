@@ -303,7 +303,7 @@ export default function EditProductModal({
             "
           >
             <Trash2 size={20} />
-            Desactivar producto
+            Eliminar producto
           </button>
         </div>
       </div>
